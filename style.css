@@ -38,5 +38,13 @@ h2 {
 }
 
 .waiting {
-  height: 50vh;
+  max-width: 806px;
+  width: 100%;
+}
+@media only screen and (max-width: 900) {
+  h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: 3rem;
+  }
 }
